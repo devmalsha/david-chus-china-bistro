@@ -19,11 +19,15 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
-      <nav id="header-nav" class="navbar navbar-expand-lg">
-        <div class="container">
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
           <div class="navbar-header">
             <a href="index.html" class="float-start">
               <div id="logo-img" alt="Logo image"></div>
@@ -37,6 +41,40 @@
                 <span>Kosher Certified.</span>
               </p>
             </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsable-nav"
+              aria-controls="collapsable-nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a href="menu-catogories.html" class="nav-link">
+                  <i class="fa fa-cutlery" aria-hidden="true"></i>Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa fa-info-circle" aria-hidden="true"></i>About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa fa-star" aria-hidden="true"></i>Awards</a
+                >
+              </li>
+              <li id="phone" class="nav-item">
+                <a href="tel:410-602-5008"><span>410-602-5008</span></a>
+                <div>*We Deliver</div>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
