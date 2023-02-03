@@ -111,6 +111,36 @@ body {
   box-shadow: 0px 1px 5px 1px #cccccc;
 }
 
+#menu-tile {
+  background: url(../images/menu-tile.jpg) no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url(../images/specials-tile.jpg) no-repeat;
+  background-position: center;
+}
+
+/* #menu-tile {
+  background: url(../images/menu-tile.jpg) no-repeat;
+  background-position: center;
+} */
+
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+}
+
 /* Large device only */
 @media (min-width: 1200px) {
   .jambotron {
@@ -168,5 +198,46 @@ body {
   #collapsable-nav a span {
     font-size: 1em;
     margin: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0px 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  #call-btn span {
+    margin: 10px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 15px auto 15px;
+  }
+}
+
+/* Super extra small device only */
+@media (max-width: 479px) {
+  .navbar-header h1 {
+    padding: 5px;
+    font-size: 6vw;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    width: 280px;
+    margin: 15px auto 15px;
   }
 }
