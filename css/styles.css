@@ -177,6 +177,36 @@ body {
   background-color: #000;
   opacity: 0.8;
 }
+/* MENU CATEOGRIES PAGE */
+
+.category-tile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid #3f0c1f;
+  margin: 0 auto 15px;
+}
+
+.category-tile > span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  font: size 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.category-tile:hover {
+  box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
 
 /* Large device only */
 @media (min-width: 1200px) {
@@ -264,7 +294,7 @@ body {
     margin: 15px auto 15px;
   }
 
-  /* Foter */
+  /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
