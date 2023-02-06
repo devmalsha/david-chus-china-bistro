@@ -208,6 +208,26 @@ body {
   margin-bottom: 50px;
 }
 
+/* SINGLE CATEGORY PAGE */
+.menu-item-title {
+  margin-bottom: 25px;
+}
+
+.menu-item-title hr {
+  width: 80%;
+}
+
+.menu-item-title .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+}
+
+.menu-item-title .menu-item-price span {
+  font-size: 0.6em;
+}
+
+/* END SINGLE CATEGORY PAGE */
+
 /* Large device only */
 @media (min-width: 1200px) {
   .jambotron {
