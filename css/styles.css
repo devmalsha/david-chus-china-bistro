@@ -321,4 +321,13 @@ body {
     width: 280px;
     margin: 15px auto 15px;
   }
+
+  .col-xxs-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
